@@ -1,0 +1,63 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+header {
+    background: #4a90e2;
+    color: #fff;
+    text-align: center;
+    padding: 1.5em 0;
+}
+
+header h1 {
+    margin-bottom: 0.5em;
+}
+
+header .contact-info a {
+    color: #fff;
+    margin: 0 0.5em;
+    text-decoration: none;
+}
+
+section {
+    padding: 2em 1em;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+ul {
+    list-style: none;
+    padding-left: 1em;
+}
+
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.image-gallery img {
+    width: 150px;
+    height: auto;
+    border-radius: 8px;
+}
+
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background: #333;
+    color: #fff;
+}
